@@ -34,12 +34,10 @@
 			$photoEnd = '</div>';
 			$photo = fetchdata($page,$photoStart,$photoEnd);
 			//Whole image tag with alt and src; why not send this to front-end
-			// echo (array('pic'=>$photo));
-      echo($photo);
+			echo json_encode(array('pic'=>$photo));
 		 }else {
 			 	//Whole image tag with alt and src; why not send this to front-end
-			// echo (array('vid'=>$isVideo));
-      echo($isVideo);
+			echo json_encode(array('vid'=>$isVideo));
 		 }
 	}
 
