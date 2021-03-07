@@ -7,6 +7,7 @@
   		$output = file_get_contents($url);
   		return $output;
 	}
+ 	
 
  	/*URL to fetch data from */ 
   $url = 'https://gramho.com/profile/playboicarti/279519379';
@@ -50,4 +51,5 @@
   }
 
 ?>
+
 
